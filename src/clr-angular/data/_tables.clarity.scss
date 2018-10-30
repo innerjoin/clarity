@@ -62,6 +62,14 @@ $clr-table--compact-verticalPadding: ($clr-table--compact-rowHeight - $clr-table
           padding-left: $clr-table-smallpadding;
         }
       }
+      
+      &.right {
+        text-align: right;
+
+        &:first-child {
+          padding-right: $clr-table-smallpadding;
+        }
+      }      
     }
 
     #{$th} {
